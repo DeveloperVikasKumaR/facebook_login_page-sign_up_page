@@ -108,7 +108,7 @@ select_log>p1
 {
     margin-left: 21px;
 }
-.check_box>#male,#female,#custom
+.check_box>#gen_male,#gen_female,#gen_custom
 {
     margin-top: 5px;
     font-size: 15px;
@@ -124,7 +124,7 @@ select_log>p1
     color: #606770;
 }
 
-#male
+#gen_male
 {
     display: inblock;
     text-align: center;
@@ -140,7 +140,7 @@ select_log>p1
     margin-right: 12px;
     border-radius: 5px;
 }
-#female
+#gen_female
 {
     display: inblock;
     text-align: center;
@@ -156,7 +156,7 @@ select_log>p1
     margin-right: 12px;
     border-radius: 5px;
 }
-#custom
+#gen_custom
 {
     display: inblock;
     text-align: center;
