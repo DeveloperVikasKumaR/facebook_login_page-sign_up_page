@@ -20,6 +20,7 @@ body
     padding: 17px;
     border-color: rgb(232, 232, 226);
     border-style: solid;
+    margin-bottom: 60px;
 }
 #message
 {
@@ -43,10 +44,17 @@ body
     border-radius: 5px;
     font-size: 17px;
     margin-bottom: 5px;
+    border: 1px;
     border-style: solid;
-    border-color: rgb(200, 200, 200);
-    
-    
+    border-color: rgb(200, 200, 200); 
+}
+#username:hover
+{
+    border: 1px;
+    border-color:greenyellow ;
+    border-style: solid;
+
+
 }
 #password
 {
@@ -58,11 +66,17 @@ body
     border-radius: 5px;
     font-size: 17px;
     margin-top: 5px;
+    border: 1px;
     margin-bottom: 5px;
     border-style: solid;
     border-color: rgb(200, 200, 200);
 }
-button
+#password:focus
+{
+    background-color: black;
+    color: white;
+}
+#bt_sign_in
 {
     width: 366px;
     height: 48px;
@@ -74,6 +88,11 @@ button
     color: whitesmoke;
     border-style: hidden;
     margin-bottom: 5px;
+}
+button:hover
+{
+    background-color: #216fdb;
+
 }
 #i1
 {
@@ -92,5 +111,43 @@ p3
     padding-bottom: 18px;
     bottom: 14px;
     font-weight: 100;
+
+}
+footer
+{
+    height: 262px;
+    background-color: white;
+    padding-left: 270px;
+    padding-right: 270px;
+    padding-top: 30px;
+    padding-bottom: 10px;  
+}
+.footer-language-link
+{
+    font-size: 12px;
+    word-spacing: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+    margin-top: 119px;
+   
+}
+#footer-button-plus
+{
+    width: 29px;
+    height: 19px;
+    font-weight: bolder;   
+}
+.footer-link-list
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+#link-list
+{
+    text-decoration: none;
+    color: #737373;
+    margin-right: 19px;
 
 }

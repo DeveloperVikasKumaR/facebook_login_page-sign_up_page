@@ -1,4 +1,4 @@
-body
+ body
 {
     background-color: #f0f2f5;
 }
@@ -30,8 +30,9 @@ facebook_icon
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
     width: 400px;
-    height: 502px;
+    height: 468px;
     padding: 16px;
+    margin-bottom: 60px;
     
 }
 message>p1
@@ -49,19 +50,23 @@ message>p2
     justify-content: center;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: ;
     color: #606770;
 }
 #i1,#i2,#i3,#i4
 {
     font-size: 15px;
     line-height: 16px;
-    color: ;
-    font-weight: ;
     padding: 12px;
-    border-radius: 5px;
-    border-color: #bdc7d8;
-    border-style: solid;  
+    border-radius: 5px; 
+    border: 1px;
+    border-style: solid;
+    border-color: #bdc7d8; 
+    margin-bottom: 10px;
+}
+#i4:focus
+{
+    background-color: black;
+    color: rgb(255, 255, 255);   
 }
 select_log>p1
 {
@@ -77,13 +82,8 @@ select_log>p1
 #i2
 {
     margin-left: 5px;
+}
 
-}
-#i1,#i2,#i3,#i4
-{
-    margin-bottom: 10px;
-    
-}
 #i3,#i4
 {
     width: 371.6px;
@@ -97,7 +97,7 @@ select_log>p1
     margin-top: 5px;
     padding-left: 8px;
     padding-right: 20px;
-    width: 116px;
+    width: 123px;
     height: 36px;
     border-style: solid;
     border-color: #bdc7d8;
@@ -106,7 +106,7 @@ select_log>p1
 }
 #month,#year
 {
-    margin-left: 21px;
+    margin-left: 10px;
 }
 .check_box>#gen_male,#gen_female,#gen_custom
 {
@@ -171,15 +171,23 @@ select_log>p1
     border-color: #bdc7d8;
     border-radius: 5px;
 }
+#gen_male,#gen_female,#gen_custom
+{
+    border: 1px;
+    border-style: solid;
+    border-color: #bdc7d8;
+    color: #1c1e21;
+}
 instruction>p1,p2
 {
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
-sign_up
+#li-1,#li-2,#li-3,#li-4
 {
-   
+    text-decoration: none;
+    color: #385898;
 }
 sign_up>p
 {
@@ -197,6 +205,11 @@ sign_up>p
     padding-top: 7px;
     padding-bottom: 7px;
 }
+sign_up>p:hover
+{
+    background-color: #69a74e;
+
+}
 login
 {
     display: flex;
@@ -205,4 +218,39 @@ login
     font-family: Arial, Helvetica, sans-serif;
     color: #00a128;
     
+}
+footer
+{
+    height: 156.4px;
+    background-color: white;
+    padding-left: 270px;
+    padding-right: 270px;
+    padding-top: 30px;
+    padding-bottom: 10px;  
+}
+.footer-language-link
+{
+    font-size: 12px;
+    word-spacing: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+#footer-button-plus
+{
+    width: 29px;
+    height: 19px;
+    font-weight: bolder;   
+}
+.footer-link-list
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+#link-list
+{
+    text-decoration: none;
+    color: #737373;
+    margin-right: 19px;
 }
